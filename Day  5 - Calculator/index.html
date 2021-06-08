@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form onsubmit="return false;" autocomplete="off">
+      <label for="fname">First Number:</label><br />
+      <input type="text" id="fnum" /><br />
+      <label for="lname">Second Number:</label><br />
+      <input type="text" id="snum" />
+      <p>Operators</p>
+      <button onclick="calculate('1')">Add</button>
+      <button onclick="calculate('2')">Sub</button>
+      <button onclick="calculate('3')">multiply</button>
+      <button onclick="calculate('4')">divide</button>
+      <button onclick="calculate('5')">modulo</button><br />
+      <label for="result">Result:</label><br />
+      <input type="text" id="result" />
+    </form>
+
+    <script src="./main.js">
+      let tem = 0;
+      document.getElementById('result').innerHTML=res;
+    </script>
+  </body>
+</html>
+
+<!-- Comments  
+
+    document.getElementById("name").innerHTML = name;
+    document.getElementById("greeting").innerHTML = "Bonjour";
+
+
+    ---
+
+<body>
+  <h1>Hello, my name is <span id="name"></span></h1>
+  <script>
+    let name = "Nathan";
+    document.getElementById("name").innerHTML = name;
+  </script>
+</body>
+
+
+-->

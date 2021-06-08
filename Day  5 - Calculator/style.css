@@ -1,0 +1,29 @@
+* {
+  margin: 5px;
+  padding: 10;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  flex-direction: column;
+  background: #040d15;
+}
+label {
+  color: aliceblue;
+}
+p {
+  color: aliceblue;
+}
+
+form input {
+  width: 100%;
+  height: 100%;
+  padding: 20px 10px;
+  border: none;
+  border-radius: 5px;
+}
